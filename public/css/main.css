@@ -1,0 +1,250 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#app {
+    background: #fae6ef;
+    margin-block-start: 20px;
+    border-radius: 5px;
+    padding-block: 20px;
+    padding-inline: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.app-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: cursive;
+    font-size: 1em;
+    text-align: center;
+    margin-block-end: 20px;
+    color: #767676;
+}
+
+.app-header .user-details-link {
+    cursor: pointer;
+}
+
+.header-title {
+    font-size: 3.5em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.login-signup {
+    margin: 10px;
+    border: solid 0.5px #767676;
+    border-radius: 10px;
+    padding: 10px;
+    margin-block-start: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    width: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.05em;
+}
+
+button:hover {
+    color: rgb(180, 180, 180);
+}
+
+a {
+    text-decoration: none;
+    color: #3a7396;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.add-new-bug-link {
+    margin-block-start: -230px;
+    margin-block-end: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.subheader {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 20px;
+}
+
+.main-title {
+    text-align: center;
+    color: rgba(36, 7, 7, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.bug-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-inline-end: 35px;
+}
+
+.bug-preview,
+.bug-details,
+.bug-edit {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    font-size: 1.1em;
+    background-color: whitesmoke;
+    color: #8b8b8b;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: fit-content;
+    border: 0.2px solid #d8d8d8;
+}
+
+.bug-preview > span:first-child {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 1.1em;
+}
+
+.bug-preview h4 {
+    margin-block-start: 2.5em;
+    flex-grow: 1;
+}
+
+[class^="severity"] {
+    font-weight: bold;
+    margin-block-end: 40px;
+}
+
+.severity1 {
+    color: tomato;
+}
+.severity2 {
+    color: #b69a01;
+}
+.severity3 {
+    color: green;
+}
+
+.bug-filter {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.bug-filter div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bug-filter input[type="text"], .bug-filter select {
+    padding: 5px;
+}
+
+.bug-preview .actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-block-end: 10px;
+}
+
+.bug-preview button {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+
+.bug-preview .preview-title {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+}
+
+.bug-edit, .bug-details {
+    margin: auto;
+    width: 400px;
+}
+
+.bug-edit form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 10px;
+    text-align: start;
+}
+
+.bug-edit label {
+    display: flex;
+    gap: 5px;
+}
+
+.bug-edit .actions {
+    align-self: center;
+    margin-block-start: 20px;
+}
+
+.user-headline {
+    text-align: center;
+    margin: 50px;
+    font-family: cursive;
+}
+
+.user-msg {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pagination {
+    margin-block-start: 50px;
+    margin-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.success {
+    background-color: lightgreen;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}

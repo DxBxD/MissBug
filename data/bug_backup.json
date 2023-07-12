@@ -1,0 +1,156 @@
+[
+    {
+      "_id": "bdBBBc456",
+      "title": "Database connection error",
+      "description": "Cannot connect to database",
+      "severity": 2,
+      "createdAt": 1542107359465,
+      "labels": [
+        "critical",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "ceCCCc789",
+      "title": "UI not responsive",
+      "description": "User interface freezes after login",
+      "severity": 1,
+      "createdAt": 1542107359476,
+      "labels": [
+        "need-CR",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "dfDDDc012",
+      "title": "Slow loading time",
+      "description": "Application takes too long to load",
+      "severity": 2,
+      "createdAt": 1542107359487,
+      "labels": [
+        "low-priority",
+        "QA-passed"
+      ]
+    },
+    {
+      "_id": "egEEEc345",
+      "title": "Memory leak",
+      "description": "Memory usage increases over time",
+      "severity": 3,
+      "createdAt": 1542107359498,
+      "labels": [
+        "critical",
+        "need-CR"
+      ]
+    },
+    {
+      "_id": "fgFFFc678",
+      "title": "Incorrect password validation",
+      "description": "Password validation allows weak passwords",
+      "severity": 3,
+      "createdAt": 1542107359401,
+      "labels": [
+        "need-CR",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "ghGGGc901",
+      "title": "Broken Links",
+      "description": "Some links on the home page are broken",
+      "severity": 1,
+      "createdAt": 1542107359402,
+      "labels": [
+        "low-priority"
+      ]
+    },
+    {
+      "_id": "hiHHHc234",
+      "title": "Page Layout on Mobile Devices",
+      "description": "The page layout is not responsive on mobile devices",
+      "severity": 2,
+      "createdAt": 1542107359403,
+      "labels": [
+        "critical",
+        "need-CR",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "ijIIIc567",
+      "title": "Inefficient Database Query",
+      "description": "Some database queries are slowing down the app",
+      "severity": 3,
+      "createdAt": 1542107359404,
+      "labels": [
+        "critical",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "jkJKKc890",
+      "title": "Missing Test Cases",
+      "description": "Some features are not covered by the test cases",
+      "severity": 1,
+      "createdAt": 1542107359405,
+      "labels": [
+        "need-CR",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "klLLLc123",
+      "title": "Error in Data Sync",
+      "description": "Data synchronization fails intermittently",
+      "severity": 2,
+      "createdAt": 1542107359406,
+      "labels": [
+        "critical",
+        "need-CR"
+      ]
+    },
+    {
+      "_id": "mnMMMc456",
+      "title": "Misaligned Elements",
+      "description": "UI elements are misaligned on the settings page",
+      "severity": 1,
+      "createdAt": 1542107359407,
+      "labels": [
+        "low-priority"
+      ]
+    },
+    {
+      "_id": "opPPPc789",
+      "title": "Server Crash",
+      "description": "Server crashes when handling multiple requests",
+      "severity": 3,
+      "createdAt": 1542107359408,
+      "labels": [
+        "critical",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "qrQQQc012",
+      "title": "App Freeze",
+      "description": "App freezes during startup",
+      "severity": 3,
+      "createdAt": 1542107359409,
+      "labels": [
+        "critical",
+        "need-CR",
+        "dev-branch"
+      ]
+    },
+    {
+      "_id": "stSTTc345",
+      "title": "Failure in Email Notification",
+      "description": "Email notifications are not being sent",
+      "severity": 2,
+      "createdAt": 1542107359410,
+      "labels": [
+        "need-CR",
+        "dev-branch"
+      ]
+    }
+  ]
